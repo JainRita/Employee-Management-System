@@ -1,0 +1,6 @@
+spring:
+  profiles:
+  # active profiles
+    active: native
+  cloud:    config:      name: db-mysql
+      uri: http://localhost:9090/
